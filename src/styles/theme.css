@@ -1,38 +1,52 @@
 
 :root[data-theme="light"] {
-  --primary: #f49097;
-  --primary-light: #fcd6da;
-  --primary-dark: #a04e56;
-  --primary-contrast: #111;
-  --background: #fff;
-  --text: #212529;
-  
-  --gray-100: #f8f9fa;
-  --gray-200: #e9ecef;
-  --gray-300: #dee2e6;
-  --gray-400: #ced4da;
-  --gray-500: #adb5bd;
-  --gray-600: #6c757d;
-  --gray-700: #495057;
-  --gray-800: #343a40;
-  --gray-900: #212529;
+  /* Vibrant pastel red light theme */
+  --primary: #ff6b6b;      /* vibrant pastel red */
+  --primary-light: #ffdce0; /* pale rose */
+  --primary-dark: #c43b3b;  /* deep red */
+  --accent: #ff9a8b;       /* warm coral accent */
+  --accent-2: #ffd1cf;     /* soft peach */
+  --background: #fff7f7;   /* very light pink */
+  --card-bg: #ffffff;
+  --input-bg: #fffaf9;
+  --border: #ffeaea;
+  --text: #2b2b2b;
+  --muted: #7a4b4b;
+  --shadow: 0 10px 30px rgba(255,107,107,0.10);
+
+  --gray-100: #fff6f6;
+  --gray-200: #ffecec;
+  --gray-300: #ffe0e0;
+  --gray-400: #ffd4d4;
+  --gray-500: #ffc8c8;
+  --gray-600: #ffbcbc;
+  --gray-700: #ff9f9f;
+  --gray-800: #ff7b7b;
+  --gray-900: #ff4f4f;
 }
 
 :root[data-theme="dark"] {
-  --primary: #f49097;
-  --primary-light: #a04e56;
-  --primary-dark: #fcd6da;
-  --primary-contrast: #fff;
-  --background: #1a1a1a;
-  --text: #f8f9fa;
-  
-  --gray-900: #f8f9fa;
-  --gray-800: #e9ecef;
-  --gray-700: #dee2e6;
-  --gray-600: #ced4da;
-  --gray-500: #adb5bd;
-  --gray-400: #6c757d;
-  --gray-300: #495057;
-  --gray-200: #343a40;
-  --gray-100: #212529;
+  /* Dark theme with warmer red tones */
+  --primary: #b84b4b;      /* muted brick red */
+  --primary-light: #eab7b7; /* pale rose */
+  --primary-dark: #7a2d2d;  /* deep burgundy */
+  --accent: #ff8b94;       /* coral/red accent */
+  --accent-2: #ffb3a7;     /* warm peach accent */
+  --background: #0b0b0c;   /* very dark */
+  --card-bg: #0f0f10;      /* slightly lighter card */
+  --input-bg: #0d0c0c;
+  --border: #241b1b;
+  --text: #fbf6f6;
+  --muted: #caa9a9;
+  --shadow: 0 10px 30px rgba(184, 75, 75, 0.12);
+
+  --gray-100: #0c0b0b;
+  --gray-200: #131212;
+  --gray-300: #1b1a1a;
+  --gray-400: #232021;
+  --gray-500: #312c2c;
+  --gray-600: #463c3c;
+  --gray-700: #6b5b5b;
+  --gray-800: #8f7a7a;
+  --gray-900: #b6a3a3;
 }

@@ -30,23 +30,21 @@
   max-width: 60rem;
   justify-content: center;
   padding: 1rem;
-  font-size: 2rem;
-  border: 0.25rem solid var(--primary);
-  border-radius: 1rem;
+  font-size: 1.6rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card-bg);
 }
 
 .searchButton {
   background-color: var(--primary);
-  color: var(--gray-900);
+  color: var(--text);
   border: none;
-  padding: 1rem 2rem;
-  border-radius: 1rem;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 2rem;
-  font-weight: bold;
-  border: 0.25rem solid var(--gray-900);
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-shadow: var(--shadow);
 }
-
-.searchButton:hover {
-  background-color: var(--primary-dark);
-}
+.searchButton:hover { transform: translateY(-2px); }

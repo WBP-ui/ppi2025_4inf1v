@@ -1,9 +1,9 @@
 .cart {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  padding: 5rem;
-  margin: 15rem 0;
+  gap: 3rem;
+  padding: 3rem;
+  margin: 10rem 0;
   align-items: center;
 }
 
@@ -14,19 +14,20 @@
 
 .cart p {
   font-size: 2rem;
-  color: var(--primary-contrast-dark);
+  color: var(--muted);
 }
 
 .cartItem {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 5rem;
-  padding: 2rem 5rem;
-  margin: 2rem;
-  border-radius: 1rem;
-  background-color: var(--gray-100);
-  color: var(--primary-contrast-dark);
+  gap: 2rem;
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  background-color: var(--card-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 
 .cartItem img {
@@ -44,18 +45,16 @@
 }
 
 .cartItem button {
-  padding: 1rem 2rem;
-  font-size: 3rem;
+  padding: 0.6rem 1rem;
+  font-size: 1.6rem;
   background-color: var(--primary);
-  color: #111;
+  color: var(--text);
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   cursor: pointer;
+  box-shadow: var(--shadow);
 }
-
-.cartItem button:hover {
-  background-color: var(--primary-dark);
-}
+.cartItem button:hover { transform: translateY(-2px); }
 
 .cartItem button:disabled {
   background-color: var(--primary-light);
@@ -65,7 +64,7 @@
 .quantityControls {
   display: flex;
   align-items: center;
-  border: 0.25rem solid #111;
+  border: 1px solid var(--border);
   border-radius: 1rem;
 }
 
